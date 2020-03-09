@@ -1,4 +1,4 @@
-# CSEU3_hashtables_bc
+# CSEU3 Hash Tables and Block Chain
 
 # DAY 1 Components of a Hash Table
 Today we will look at:
