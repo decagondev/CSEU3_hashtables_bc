@@ -9,5 +9,5 @@ Today we will look at:
 We know them as objects in JavaScript and dictionaries in Python but they are an abstract data structure
 
 ## What are the component parts of a hash table?
-Hash tables consist of a storage data structure and a hashing function under the hood. the base data structure we will use today will be using an Array or more specifically a Dynamic Array. We will discuss some differences today.
+Hash tables consist of a storage data structure and a hashing function under the hood. the base data structure we will use today will be using an Array or more specifically a Dynamic Array. We will discuss some differences today. Also contains a hashing function
 
