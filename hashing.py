@@ -28,6 +28,7 @@ def djb2(key):
     # iterate over each char in the key
         # set the hash value to the bit shift left by 5 of the hash value and sum of the hash value  then add the value for the char 
     # return the hash value
+    pass
 
 
 
