@@ -14,6 +14,7 @@ class HashTable:
     '''
     def __init__(self, capacity):
         self.capacity = capacity  # Number of buckets in the hash table
+        self.count = 0
         self.storage = [None] * capacity
 
 
@@ -49,7 +50,19 @@ class HashTable:
         # Part 2: Change this so that hash collisions are handled with Linked List Chaining.
         Fill this in.
         '''
-        pass
+        # check count exceeding capacity
+        if self.count >= self.capacity:
+            # TODO: Make array dynamic with resizing
+            print("ERROR: Array is full")
+            # self.resize()
+            return
+
+        # create an index from the hash of the key
+        index = self._hash_mod(key)
+        # add value to storage at index
+        self.storage[index] = value
+        # increment count
+        self.count += 1
 
 
 
@@ -59,6 +72,21 @@ class HashTable:
         Print a warning if the key is not found.
         Fill this in.
         '''
+
+        #         # check count exceeding capacity
+        # if self.count >= self.capacity:
+        #     # TODO: Make array dynamic with resizing
+        #     print("ERROR: Array is full")
+        #     # self.resize()
+        #     return
+
+        # create an index from the hash of the key
+        index = self._hash_mod(key)
+        # add value to storage at index
+        self.storage[index] = None
+        # increment count
+        self.count -= 1
+
         pass
 
 

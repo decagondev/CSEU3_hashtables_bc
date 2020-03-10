@@ -17,7 +17,7 @@ Today we will look at:
 - break for 5 mins
 - what are collisions (whiteboard & talk)
 - break for 5 mins
-- a way to handle collisions (whiteboard & talk)
+- a way to handle collisions (whiteboard & code)
 - break for 5 mins
 - what your tasks for today are in the project repository
 

@@ -27,10 +27,13 @@ print(end - start,"Seconds")
 def djb2(key):
     # start from an arbitrary large prime such as (5381)
     # set the ahs value to 5381
+    hash_value = 5381
     # iterate over each char in the key
+    for char in key:
         # set the hash value to the bit shift left by 5 of the hash value and sum of the hash value  then add the value for the char 
+        hash_value = ((hash_value << 5) + hash_value) + char
     # return the hash value
-    pass
+    return hash_value
 
 
 
