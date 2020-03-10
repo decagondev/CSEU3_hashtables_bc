@@ -11,4 +11,16 @@ We know them as objects in JavaScript and dictionaries in Python but they are an
 ## What are the component parts of a hash table?
 Hash tables consist of a storage data structure and a hashing function under the hood. the base data structure we will use today will be using an Array or more specifically a Dynamic Array. We will discuss some differences today. Also contains a hashing function
 
-## Hash Table Collisions
+# Day 2 Hash Table Collisions
+Today we will look at:
+- hashtable solution for yesterdays challenge (live code) ~30  mins
+- break for 5 mins
+- what are collisions (whiteboard & talk) ~30 mins
+- break for 5 mins
+- a way to handle collisions (whiteboard & talk) ~30 / 40 mins
+- break for 5 mins
+- what your tasks for today are in the project repository ~5 mins
+
+## Collisions
+
+
