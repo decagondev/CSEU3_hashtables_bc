@@ -13,13 +13,13 @@ Hash tables consist of a storage data structure and a hashing function under the
 
 # Day 2 Hash Table Collisions
 Today we will look at:
-- hashtable solution for yesterdays challenge (live code) ~30  mins
+- hashtable solution for yesterdays challenge (live code)
 - break for 5 mins
-- what are collisions (whiteboard & talk) ~30 mins
+- what are collisions (whiteboard & talk)
 - break for 5 mins
-- a way to handle collisions (whiteboard & talk) ~30 / 40 mins
+- a way to handle collisions (whiteboard & talk)
 - break for 5 mins
-- what your tasks for today are in the project repository ~5 mins
+- what your tasks for today are in the project repository
 
 ## Collisions
 
