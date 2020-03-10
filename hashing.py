@@ -2,20 +2,22 @@ import time
 import hashlib
 import bcrypt
 
-n = 1
+n = 1000000
 key = b"STR"
 
 # hash
 print("Hash")
 start = time.time()
-hash(key)
+for i in range(n):
+    hash(key)
 end = time.time()
 print(end - start,"Seconds")
 
 # hashlib
 print("Hash Lib SHA256")
 start = time.time()
-hashlib.sha256(key)
+for i in range(n):
+    hashlib.sha256(key)
 end = time.time()
 print(end - start,"Seconds")
 
